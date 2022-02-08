@@ -31,38 +31,39 @@ h2{
     margin-bottom:2%;
 }
 
+
 .box2{
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     display: Bottom left;
     width: 500px;
+    border: 5px solid red;
 }
+.border img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 
 h3{
     color:hotpink;
     font-size:22px;
     margin: 5px;
     padding-bottom: 25px;
-
 }
 
+# how to format a div inside so the image stays within the borader 
 
-.flex-container {
-  /* We first create a flex layout context */
+.flex-container{
   display: flex;
-
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
   flex-flow: row wrap;
 
   /* Then we define how is distributed the remaining space */
   justify-content: space-around;
 }
- 
+
 .flexbox-item{
     width:200px;
     margin:10px;

@@ -6,10 +6,10 @@ body{
     background-color: lightblue;
     font-family: Arial, sans-serif;
 }
-        border: 5px solid red;
+      
 
 h1{
-    color:navy;
+    color: navy;
     text-align: center;
     font-family: sans-serif;
 }
@@ -53,9 +53,6 @@ h2{
 }
 
 
-
-
-
 h3{
     color:hotpink;
     font-size:22px;
@@ -63,3 +60,37 @@ h3{
     padding-bottom: 25px;
 }
 
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+          
+        .overlay { 
+            position: absolute; 
+            transition: all 0.0s ease; 
+            opacity: 0; 
+            background-color: #808A74; 
+        } 
+          
+        .container:hover .overlay { 
+            opacity: .85; 
+        } 
+          
+        .overlayFade { 
+            width: 400px; 
+height: 300px; 
+            top: 0px; 
+            left: 0px; 
+            background-color: #808A74; 
+        } 
+ 
+
+/ hover overlay done*/

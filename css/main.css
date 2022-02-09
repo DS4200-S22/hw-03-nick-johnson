@@ -3,19 +3,24 @@
 }
 
 body{
-    background-color: lightblue;
-    font-family: Arial, sans-serif;
+    background-color: white;
+    
 }
-      
+
+p{
+    padding: 10px;
+}
 
 h1{
     color: navy;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial;
+    font-size: 45px
 }
 
 h2{
-    color:navy;
+    color:black;
+    
     text-align: center;
 }
 
@@ -30,7 +35,7 @@ h2{
 }
 
 .flex-item{
-    border: 5px solid red;
+    border: 5px solid black;
     width: 700px
    
 

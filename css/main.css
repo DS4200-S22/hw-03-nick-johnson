@@ -12,16 +12,17 @@ p{
 }
 
 h1{
-    color: navy;
+    color: black;
     text-align: center;
     font-family: Arial;
-    font-size: 45px
+    font-size: 45px;
 }
 
 h2{
     color:black;
-    
     text-align: center;
+    font-family: Arial;
+    font-size: 32px;
 }
 
 .flex-container{
@@ -66,14 +67,14 @@ h3{
 }
 
 .square {
-  height: 250px;
-  width: 250px;
+  height: 110px;
+  width: 110px;
   background-color: aqua;
 }
 
 .circle {
-  height: 250px;
-  width: 250px;
+  height: 110px;
+  width: 110px;
   background-color: orangered;
   border-radius: 50%;
 }
@@ -89,13 +90,13 @@ margin-left: 5%;
 
   
         .container img { 
-            width: 250px; 
-            height: 250px; 
+            width: 110px; 
+            height: 110px; 
         } 
           
         .container { 
             position: relative; 
-            width: 250px; 
+            width: 110px; 
             height: auto; 
 margin-right: 3%;
         } 
@@ -112,21 +113,28 @@ margin-right: 3%;
         } 
           
         .overlayFade { 
-            width: 250px; 
-height: 250px; 
+            width:110px; 
+height: 110px; 
             top: 0px; 
             left: 0px; 
             background-color: #808A74; 
         } 
 
   .overlayFade2 { 
-            width: 250px; 
-height: 250px; 
+            width: 110px; 
+height: 110px; 
             top: 0px; 
             left: 0px; 
             background-color: #808A74; 
   border-radius: 50%;
         } 
- 
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    font-family: Arial;
+    font-size: 25px;
+}
+}
 
 /* hover overlay done*/

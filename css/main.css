@@ -64,13 +64,13 @@ h3{
 .square {
   height: 110px;
   width: 110px;
-  background-color: aqua;
+  background-color: skyblue;
 }
 
 .circle {
   height: 110px;
   width: 110px;
-  background-color: orangered;
+  background-color: palegreen;
   border-radius: 50%;
 }
 
@@ -125,10 +125,10 @@ justify-content: center}
 } 
 
 ul {
-    text-align: center;
-    list-style-position: inside;
+
     font-family: Arial;
     font-size: 25px;
+    width: 25%; margin-left: auto; margin-right: auto;
 }
 
 
